@@ -1,42 +1,60 @@
-import React from 'react'
-
 function Cards() {
   return (
-    <div>
-      <div className='flex justify-evenly p-4'>
-        {/*card1*/}
-        <div className='w-[400px] h-[300px] p-4 text-white rounded-sm shadow-lg ml-8' style={{ backgroundColor: 'rgb(41, 41, 36)' }}>
-          <h3 className='text-2xl font-bold pt-[75px] ml-12 mb-4' style={{ color: 'rgb(93, 92, 92)' }}>Education</h3>
-          <div className='ml-12' style={{ color: 'rgb(143, 143, 143)' }}>
-            <h2>Bachelors in Computer Science Engineering (Data Science)</h2>
-            <h4 className='mb-2'>Vellore Institute of Technology, Vellore</h4>
-          </div>
-        </div>
-
-        {/*card2*/}
-        <div className='w-[400px] h-[300px] p-4 text-white rounded-sm shadow-lg ml-8' style={{ backgroundColor: 'rgb(41, 41, 36)' }}>
-          <h3 className='text-2xl font-bold pt-[75px] ml-12 mb-4' style={{ color: 'rgb(93, 92, 92)' }}>Skills</h3>
-          <div className='ml-12' style={{ color: 'rgb(143, 143, 143)' }}>
-            <p>
-
-            </p>
-          </div>
-        </div>
-
-        {/*card3*/}
-        <div className='w-[400px] h-[300px] p-4 bg-white text-black rounded-sm shadow-lg ml-8'>
-          <h3 className='text-2xl font-bold pt-4 ml-12 mb-4' style={{ color: 'rgb(93, 92, 92)' }}>Extra Cirr</h3>
-          <div className='ml-12' style={{ color: 'rgb(143, 143, 143)' }}>
-            <h2 className='mb-4'>Revolutionizing the Courier Industry with Advanced</h2>
-          </div>
-        </div>
-
-
-
-
+    <div className='flex flex-col w-full h-auto bg-lavender flex justify-center items-center'>
+      <div className='w-[70%] max-w-4xl h-auto p-6 bg-gray-100 '>
+        <h1 className='text-4xl font-semibold text-left mb-4 ml-4' style={{ color: 'rgb(102, 83, 101)' }}>Education</h1>
+        <p className="ml-4 font-semibold text-gray-700">
+          Bachelors in Computer Science Engineering (Data Science)<br />
+          Sophomore<br />
+          Vellore Institute of Technology<br />
+          CGPA - 9.25<br />
+          <br />
+          Pre-University in MPC<br />
+          FIITJEE Junior College<br />
+          Percentage - 97.5
+        </p>
       </div>
+
+      <div className='w-[70%] max-w-4xl h-auto p-6 bg-gray-100 mt-12'>
+        <h1 className='text-4xl font-semibold text-left mb-4 ml-4' style={{ color: 'rgb(102, 83, 101)' }}>Skills</h1>
+        <p className="ml-4 font-semibold text-gray-700">
+          Programming Languages: Python, Java, C, Cpp<br />
+          Data Structures & Algorithms<br />
+          Object-Oriented Programming<br />
+          Web Development: HTML, tailwind CSS<br />
+          Version Control: Git, github<br />
+          Soft Skills: Communication, teamwork<br />
+        </p>
+      </div>
+
+      <div className='w-[70%] max-w-4xl h-auto p-6 bg-gray-100 mt-12 mb-12'>
+        <h1 className='text-4xl font-semibold text-left mb-4 ml-4' style={{ color: 'rgb(102, 83, 101)' }}>Extra-Curriculars</h1>
+        <p className="ml-4 font-bold text-gray-700">
+          Core Committee Member of ISTE</p>
+        <p className="ml-4 font-semibold text-gray-700 mb-12">
+          AUGMENTRIX: Gaming Workshop | Technical Support<br /> 
+          GRAVITAS - VIT's Technical Festival<br /><br />
+
+          During GRAVITAS, VIT's prestigious technical festival, I took on the role of Technical Support for the AUGMENTRIX Gaming Workshop. 
+          In this role, I was responsible for ensuring smooth technical operations throughout the session, troubleshooting issues, and assisting 
+          participants with the setup and gameplay. My contribution helped maintain the workshop's focus on learning and engagement, 
+          offering a seamless experience for all attendees.
+        </p>
+
+        <p className="ml-4 font-bold text-gray-700">
+          Toastmasters Member | Presentation Mastery Path</p>
+
+          <p className="ml-4 font-semibold text-gray-700">
+            (Level 1 in Progress)<br /><br />
+
+            I'm an active member of Toastmasters, currently working through the Presentation Mastery path to enhance my public speaking and 
+            communication skills. This experience is helping me build confidence, structure impactful presentations, and receive valuable feedback 
+            for continuous improvement.
+            </p>
+      </div>
+
     </div>
-  )
+  );
 }
 
-export default Cards
+export default Cards;
