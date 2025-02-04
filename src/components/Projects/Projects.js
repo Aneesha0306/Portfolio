@@ -26,7 +26,7 @@ function Projects() {
           <a className="font-semibold text-left" href="https://github.com/Aneesha0306/news_summarizer">Github link</a>
         </p>
 
-        <hr className="border-t-2 border-gray-300 mt-8" />
+        <hr className="border-t-2 border-gray-350 mt-8" />
 
         <h2 className="ml-4 font-bold text-gray-700 mt-[50px]">Credit Card Fraud Detection Using Logistic Regression</h2>
         <p className='ml-4 mb-4'>
