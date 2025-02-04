@@ -18,7 +18,7 @@ function Cards() {
       <div className='w-[70%] max-w-4xl h-auto p-6 bg-gray-100 mt-12'>
         <h1 className='text-4xl font-semibold text-left mb-4 ml-4' style={{ color: 'rgb(102, 83, 101)' }}>Skills</h1>
         <p className="ml-4 font-semibold text-gray-700">
-          Programming Languages: Python, Java, C, Cpp<br />
+          Programming Languages: Python, Java, C, C++<br />
           Data Structures & Algorithms<br />
           Object-Oriented Programming<br />
           Web Development: HTML, tailwind CSS<br />
@@ -44,7 +44,7 @@ function Cards() {
         <p className="ml-4 font-bold text-gray-700">
           Toastmasters Member | Presentation Mastery Path</p>
 
-          <p className="ml-4 font-semibold text-gray-700">
+          <p className="ml-4 font-semibold text-gray-700 mb-4">
             (Level 1 in Progress)<br /><br />
 
             I'm an active member of Toastmasters, currently working through the Presentation Mastery path to enhance my public speaking and 
